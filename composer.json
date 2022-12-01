@@ -7,7 +7,9 @@
     "require": {
         "php": "^8.0.2",
         "guzzlehttp/guzzle": "^7.2",
+        "irazasyed/telegram-bot-sdk": "^3.9",
         "laravel/framework": "^9.19",
+        "laravel/nova": "^4.19",
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7"
     },
@@ -61,5 +63,11 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": {
+        "nova": {
+            "type": "composer",
+            "url": "https://nova.laravel.com"
+        }
+    }
 }
